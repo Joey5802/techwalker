@@ -1,0 +1,62 @@
+<html>
+<!--Prepare yourself, for you are about to read through the best code to exist on GitHub.-->
+<head>
+    <title>TECHWALKER!</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" href="needsmorejpeg.ico" type="image/x-icon">
+<audio id="tune" preload="auto" autoplay loop  src="sound/mellow.ogg" ></audio>
+<script>
+var audio = document.getElementById("tune");
+audio.volume = 1.0;
+</script> <!--This is a script to change the audio volume. Like all the JS here, I didn't write it!-->
+</head>
+
+<body>
+<img class="logo" src="imgs/techlogonew.PNG" alt="TechWalker">
+<!--Navstuff below-->
+<div class="buttons">
+ <a class="button" href="html/photos.html" id="photosButton"><img src="buttons/photos.gif" alt="Photos" class="photosimg"></a>
+ <a class="button" href="html/blog.html" id="blogButton"><img class="blogimg" alt="Blog" src="buttons/blog.gif"></a>
+ <a class="button" href="html/games.html" id="gamesButton"><img class="gamesimg" alt="Games" src="buttons/games.gif"></a>
+ <a class="button" href="html/about.html" id="aboutButton"><img class="aboutimg" alt="About" src="buttons/about.gif"></a>
+</div>
+
+<!--END Navstuff-->
+<img class="welcomegif" src="gifs/welcome.gif" alt"Welcome to the NEW techwalker.tk!">
+
+<!--Video stuff below-->
+<video class="welcomevid" width="420" height="340" poster="imgs/welcomep.png" preload="none" autoplay controls>
+      <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+      <source type="video/mp4" src="vids/welcome.mp4"/>
+      <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
+      <source type="video/webm" src="vids/welcome.webm"/>
+       <!-- M4V for Apple -->
+      <source type="video/mp4" src="vids/welcome.m4v"/>
+      <!-- Ogg/Vorbis for older Firefox and Opera versions -->
+      <source type="video/ogg" src="vids/welcome.ogv"/>
+      <!-- Flash (yay!) fallback for non-HTML5 browsers without JavaScript -->
+      <object width="100%" height="400" type="application/x-shockwave-flash" data="flashmediaelement.swf">
+          <param name="movie" value="/vids/welcome.swf"/>
+          <param name="flashvars" value="controls=true&file=assets/vids/welcome.mp4" />
+          <!-- Image as a last resort -->
+          <img src="assets/img/myVideo.jpg" width="320" height="240" title="No video playback capabilities" />
+      </object>
+  </video>
+     
+     
+<marquee class="marquee">
+Java is better than JavaScript!                 I can't afford a domain!                    America!                    Celebrating 3 visitors!
+</marquee>
+    
+<script type="text/javascript">
+if ( window.addEventListener ) {  
+  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
+  window.addEventListener("keydown", function(e) {  
+    if ( e.keyCode == konami[state] ) state++;  
+    else state = 0;  
+    if ( state == 10 )  
+      window.location = "html/egg.html";  //you can write your own code here
+    }, true);  
+}  
+</script>
+     

@@ -1,0 +1,113 @@
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+ animation-name: logo;
+ animation-duration: 0.8s;
+}
+
+@keyframes logo {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.title {
+    text-align: center;
+    font-family: "Verdana";
+    color: black;
+    font-size: 30px;
+}
+
+.text {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    height: 390;
+    width: 390;
+    text-align: center;
+}
+
+.welcomevid {
+    margin: 0 auto;
+    display: block;
+}
+
+.buttons {
+text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: hand;
+    color: red;
+    font-family: "Comic Sans MS";
+    display: block;
+    margin-left: 0;
+
+}
+
+.welcomegif {
+    margin: auto;
+    display: block;
+    width: 700;
+    position: relative;
+    top: -15;
+}
+
+.photosimg {
+    width: 100px;
+    margin: 0 auto;
+    top: 90;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #ccc;
+    background: black;
+    color: rgb(202, 255, 195);
+    font-size: 30px;
+    top: 70;
+    position: relative;
+}
+
+.blogimg {
+    width: 65px;
+    top: 11;
+    position: relative;
+    left: -4;
+}
+
+.gamesimg {
+    width: 90px;
+    top: 1;
+    position: relative;
+    left: -4;
+}
+
+.aboutimg {
+    width: 80px;
+    top: 1;
+    position: relative;
+    left: -5;
+}
+
+.blogButton {
+    top:90px;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+background: #d0e4f7; /* Old browsers */
+background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+}

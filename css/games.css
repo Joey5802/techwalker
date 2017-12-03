@@ -1,0 +1,74 @@
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+background: rgb(206,220,231); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
+
+.construction{
+    display: block;
+    margin-right: auto;
+    margin-top: 150 ;
+    margin-left: auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 50;
+    color: white;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+}
+
+.games {
+    position: relative;
+    top: auto;
+    margin-left: 385;
+}
+.buttons {
+text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: hand;
+    color: red;
+    font-family: "Comic Sans MS";
+    display: block;
+    margin-left: 0;
+
+}
+.photosimg {
+    width: 100px;
+    margin: 0 auto;
+    top: 90;
+}
+.blogimg {
+    width: 65px;
+    top: 11;
+    position: relative;
+    left: -4;
+}
+
+.homeimg {
+    width: 80px;
+    top: 0;
+    position: relative;
+    left: -4;
+}
+
+.aboutimg {
+    width: 80px;
+    top: 1;
+    position: relative;
+    left: -5;
+}
+
+.blogButton {
+    top:90px;
+}

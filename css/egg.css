@@ -1,0 +1,40 @@
+body{
+    background-color: red;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    col
+}
+
+h2{
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+}
+
+.rise{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clock{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.home {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}

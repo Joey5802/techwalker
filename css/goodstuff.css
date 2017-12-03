@@ -1,0 +1,206 @@
+.meet {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Helvetica";
+ font-size: 25px;
+}
+
+.aboutthx {
+  text-align: center;
+  font-family: Arial Rounded MT;
+  font-size: 24px;
+  color: red;
+}
+
+.thanks {
+    vertical-align: middle;
+    display: block;
+    margin: 0;
+    left: 50px;
+    position: absolute;
+        left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 420px;
+}
+
+
+
+
+.museum{
+    width: 100%;
+  /*margin: 0 auto;*/
+  text-align: center;
+
+}
+.gallery {
+  width: 180px;
+  display: inline-block;
+    }
+    
+ .gallery:hover {
+      border: 1px solid #777;
+    }
+    
+  .gallery img {
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
+    
+  .desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+h3 {
+    color: darkblue;
+}
+
+h3{
+  text-align: center;
+  font-family: "Papyrus";
+  background-color: red;
+}
+h5 {
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+}
+
+.april17 {
+  font-size: 25px;
+  font-family: arial;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: arial;
+  color: darkblue;
+  font-size: 12px;
+}
+
+.owner{
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  color: greenyellow;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.buttons {
+text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: hand;
+    color: red;
+    font-family: "Comic Sans MS";
+    display: block;
+    margin-left: 0;
+
+}
+.photosimg {
+    width: 100px;
+    margin: 0 auto;
+    top: 90;
+}
+.gamesimg {
+    width: 90px;
+    top: -1;
+    position: relative;
+    left: -4;
+}
+.blogimg {
+    width: 65px;
+    top: 11;
+    position: relative;
+    left: -4;
+}
+
+.homeimg {
+    width: 80px;
+    top: 0;
+    position: relative;
+    left: -4;
+}
+
+.aboutimg {
+    width: 80px;
+    top: 1;
+    position: relative;
+    left: -5;
+}
+
+.blogButton {
+    top:90px;
+}
+.logo{ /*The main site logo*/
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+ animation-name: logo;
+    animation-duration: 0.5s;
+}
+
+.welcome {
+  /*This is the ugly GIF that welcomes you to the site.*/
+  display: block;
+  margin: 0 auto;
+    animation-name: welcomegif;
+    animation-duration: 0.5s;
+}
+
+.me_irl {
+  display: block;
+  margin: 0 auto;
+}
+
+.photo {
+  display: inline-block;
+}
+
+.parent {
+  display: grid;
+  top: 0;
+  left: 0;
+}
+
+.divider1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mac {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+.photos {
+  font-family: Arial;
+  text-align: center;
+  color: black;
+}
+
+
+
+body {
+  background: #339966;
+  background: -webkit-linear-gradient(limegreen, blue) no-repeat;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(limegreen, blue) no-repeat;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(limegreen, blue) no-repeat;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(limegreen, blue) no-repeat;
+  /* Standard syntax */
+  height: 100vh;
+}

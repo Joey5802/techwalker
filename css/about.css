@@ -1,0 +1,96 @@
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+}
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: hand;
+    color: red;
+    font-family: "Comic Sans MS";
+    display: block;
+    margin-left: 3.5;
+
+}
+.photosimg {
+    width: 100px;
+    margin: 0 auto;
+    top: 90;
+}
+.gamesimg {
+    width: 90px;
+    top: -1;
+    position: relative;
+    left: -4;
+}
+.blogimg {
+    width: 65px;
+    top: 11;
+    position: relative;
+    left: -4;
+}
+
+.homeimg {
+    width: 80px;
+    top: 0;
+    position: relative;
+    left: -4;
+}
+
+.aboutimg {
+    width: 80px;
+    top: 1;
+    position: relative;
+    left: -5;
+}
+
+.blogButton {
+    top:90px;
+}
+h1{
+    text-align: center;
+    font-size: 50;
+    font-family: cursive;
+    color: lemonchiffon;
+    margin-top: -30;
+}
+
+h2{
+    text-align:center;
+    color: goldenrod;
+    margin-top:-30px;
+}
+
+h3{
+    text-align:center;
+    font-family:monospace;
+    color:beige;
+}
+
+h4{
+    text-align:center;
+    font-family:inherit;
+    color:aquamarine;
+}
+
+h5{
+    text-align:center;
+    font-family:sans-serif;
+    color:bisque;
+}
+
+.aboutjoey{
+    margin: 0 auto;
+    display: block; 
+}
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+}

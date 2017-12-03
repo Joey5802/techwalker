@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+}
+
+.buttons {
+text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: hand;
+    color: red;
+    font-family: "Comic Sans MS";
+    display: block;
+    margin-left: 0;
+
+}
+.photosimg {
+    width: 100px;
+    margin: 0 auto;
+    top: 90;
+}
+.gamesimg {
+    width: 90px;
+    top: -1;
+    position: relative;
+    left: -4;
+}
+.blogimg {
+    width: 65px;
+    top: 11;
+    position: relative;
+    left: -4;
+}
+
+.homeimg {
+    width: 80px;
+    top: 0;
+    position: relative;
+    left: -4;
+}
+
+.aboutimg {
+    width: 80px;
+    top: 1;
+    position: relative;
+    left: -5;
+}
+
+.blogButton {
+    top:90px;
+}
